@@ -44,7 +44,7 @@ public class SistemaProducaoApp {
 
                     System.out.println("Digite a quantidade desejada:");
                     int quantidadeVerificar = scanner.nextInt();
-                    scanner.nextLine(); // Consumir a quebra de linha
+                    scanner.nextLine(); 
 
                     boolean producaoPossivel = sistemaDAO.verificarProducao(produtoVerificar, quantidadeVerificar);
 
